@@ -1,0 +1,283 @@
+/** Tablet potrait 768-991**/
+@media screen and (max-width: 991px) {
+
+    /*** index-pg::strat***/
+    .search-bar .welcome-text {
+        font-size: 16px;
+    }
+    .search-wrap .search-group {
+        margin-right: 10px;
+    }
+    .statistic-block .statistic-meta h3 {
+        font-size: 22px;
+    }
+    .statistic-block {
+        margin-right: 10px;
+    }     
+    .card-header h5 .m-icon {
+        margin-right: 5px;
+    }
+    /*** index-pg::end***/
+
+    /*** advance-search-pg::strat***/
+    .advance-search-selector .row.align-item-center.m-b-10 {
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+    .advance-search-selector input.form-control {
+        width: 60%;
+    }
+    /*** advance-search-pg::end***/
+
+    /*** admin-panel-bar-pg::strat***/
+    .admin-panel-bar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /*** admin-panel-bar-pg::end***/
+
+    /*** pdf-viewer-pg::strat***/
+    .breadcrumb {
+        font-size: 16px;
+    }
+    /*** pdf-viewer-pg::end***/
+
+}
+
+/** mobile potrait 768 **/
+@media screen and (max-width: 767px) {
+
+    /*** index-pg::strat***/
+    .navbar-nav li.nav-item {
+        width: 100%;
+        margin: 5px;
+    }
+    .navbar-nav li.nav-item .nav-link {
+        justify-content: center;
+    }
+    .navbar-nav .nav-item .count{
+        top: 6px;
+        right: 10px;
+    }
+    .navbar-brand .logo {
+        height: 50px;
+    }
+    a.nav-link.btn-circle.btn-white {
+        display: none;
+    }
+    .bottom-header .contact-info-block {
+        text-align: center;
+    }
+    .bottom-header .user-name {
+        flex-direction: column;
+        min-width: 100%;
+    }
+    .user-info {
+        order: 0;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .sidemenu-toggle {
+        order: 1;
+        display: flex;
+    }
+    .page-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidemenu-bar {
+        width: 350px;
+    }
+    .search-bar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 10px;
+    }
+    .search-bar .welcome-text {
+        margin-bottom: 10px;
+    }
+    .search-wrap {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .search-wrap .search-group {
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .search-wrap .search-group .form-control {
+        width: 100%;
+    }
+    .search-wrap button.btn.btn-yellow {
+        width: 100%;
+    }
+    .statistic-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .statistic-block {
+        width: 48%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    #verification-filter button {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .statistic-detail-body .form-control{
+        margin-bottom: 10px;
+    }
+    .btn-lg {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .mobile-btn-respo .btn-circle.btn-white {
+        display: flex;
+    }
+    .mobile-btn-respo .navbar-toggler span {
+        display: block;
+    }
+    .mobile-btn-respo .navbar-toggler .icon.show {
+        display: none;
+    }
+    .mobile-btn-respo .navbar-toggler.collapsed .icon.show {
+        display: block;
+    }
+    .mobile-btn-respo .navbar-toggler.collapsed .icon.hide {
+        display: none;
+    }
+    .data-info{
+        margin: 10px 0;
+    }
+    .scan-upload-btn {
+        display: flex;
+        flex-direction: column;
+    }
+    .scan-upload-btn button {
+        margin-bottom: 10px;
+    }
+    .doc-view-edit {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .doc-view-edit h4 {
+        margin: 5px 0;
+    }
+    .batch-img img {
+        width: 125px;
+    }
+    /*** index-pg::end***/
+
+
+    /*** search-result-grid-pg::start***/
+    .file-grid-wrap {
+        margin-bottom: 15px;
+    }
+    /*** search-result-grid-pg::end***/
+    
+    /*** search-result-pg::start***/
+    .pdf-group {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .pdf-group-btn {
+        justify-content: space-between;
+        order: 1;
+        margin-top: 10px;
+    }
+    /*** search-result-pg::end***/
+
+    /*** advance-search-pg::start***/
+    .advance-search-selector .row.align-item-center.m-b-10{
+        margin-bottom: 40px !important;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .advance-search-selector .col-lg-2.col-md-2.col-sm-12 {
+        margin-bottom: 10px;
+    }
+    .advance-search-selector .col-lg-2.col-md-3.col-sm-12 {
+        margin-bottom: 10px;
+    }
+    /*** advance-search-pg::end***/
+
+    /*** pdf-viewer-pg::start***/
+    .pdf-viewer .d-flex.align-item-center.justify-content-between.m-b-20 {
+        flex-direction: column;
+    }
+    /*** pdf-viewer-pg::end***/
+
+    /***search-result-grid-pg::start***/
+    .file-grid-block:hover {
+        width: 360px;
+    }
+    .file-grid-block .files{
+        width: 100px;
+        height: auto;
+        justify-content: flex-start;
+    }
+    /***search-result-grid-pg::end***/
+
+    /***  admin-panel-bar::start***/
+    .admin-panel-bar {
+        display: block;
+    }
+    .admin-wrap {
+        flex-wrap: wrap;
+    }
+    .access-group .nav-tabs .nav-link {
+        padding: 6px 10px;
+    }
+    .admin-wrap select.form-select.sm {
+        min-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .admin-wrap input#user-search-input {
+        min-width: 100%;
+    }
+    .top-user-details {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    /***  admin-panel-bar::end***/
+
+    /***  admin-panel-bar-dashboard::start***/
+    .content-wrapper {
+         flex-direction: column;
+    }
+    .dashboard-searcharea{
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+    .user-data{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .user-data .col-lg-4.col-md-4.col-sm-12 b {
+        margin-bottom: 10px;
+    }
+     /***  admin-panel-bar-dashboard::end***/
+
+
+    /***  admin-panel-edit-btn-dashboard::start***/
+    .user-info-data {
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    /***  admin-panel-edit-btn-dashboard::end***/
+}
+
+@media screen and (max-width: 440px) {
+    .modal-footer {
+        justify-content: flex-end !important;
+
+    }
+}
+
+
