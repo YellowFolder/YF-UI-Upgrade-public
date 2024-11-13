@@ -1558,7 +1558,7 @@ color: #fff;
     background-image: url(../images/body-bg.jpg);
     background-position: top center;
     background-repeat: repeat;
-    background-size: cover;
+    background-size: contain;
     -webkit-animation: 110s scroll infinite linear;
     -moz-animation: 110s scroll infinite linear;
     -o-animation: 110s scroll infinite linear;
